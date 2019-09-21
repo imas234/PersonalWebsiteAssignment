@@ -16,13 +16,13 @@
     margin-bottom: 10%;
  }
 
-  .flex-container{
+  .flex-index{
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    margin-top: 6%;
+    margin-bottom: 6%;
     flex-shrink: 2;
   }
 
@@ -30,9 +30,10 @@
     border: none;
     margin: 0;
     background: transparent;
-    font-size: 30px;
+    font-size: 32px;
     color: #363636;
     text-align: center;
+    text-decoration: none;
     font-weight: normal;
     justify-content: center;
     font-family: 'Montserrat', Helvetica, sans-serif;
@@ -51,23 +52,57 @@
   .flex-button:active{
     outline: 0;
     outline-offset: 0;
-    font-size: 29px;
+    font-size: 30px;
     border-bottom: 1px solid #363636;
-  }  
+  }
 
-  .text-intro{
+  .flex-illustrations{
     display: flex;
-    width: 100%;
     flex-direction: column;
-    margin-top: 8%;
-    margin-bottom: 8%;
+    flex-wrap: nowrap;
+    align-items: center;
     justify-content: center;
   }
 
-  .intro-text{
+  .flex-pics{
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    max-height: 310px;
+    justify-content: center;
+    margin: 2%;
+  }
+
+  .content-box{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 1%;
+    justify-content: center;
+  }
+
+  .content-text{
     font-family: 'Montserrat', Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     font-weight: normal;
     justify-content: center;
+  }
+
+  .title-text{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    justify-content: center;
+    margin: 4%;
+  }
+
+  .subhead-text{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 23px;
+    text-align: center;
+    font-weight: normal;
+    justify-content: center;
+    margin: 1%;
   }
