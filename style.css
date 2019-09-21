@@ -10,7 +10,7 @@
     font-size: 60px;
     text-align: center;
     font-weight: normal;
-    color: #0a0a0a;
+    color: #063821;
     font-family: 'Lobster', cursive;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -40,7 +40,7 @@
   }
 
   .flex-button:hover{
-    color: #0a0a0a;
+    color: #063821;
     border-bottom: 1px solid #363636;
   }
 
@@ -77,20 +77,32 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    padding: 1%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
     justify-content: center;
+  }
+
+  .intro-text{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
   }
 
   .content-text{
     font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     font-weight: normal;
-    justify-content: center;
+    padding-right: 120px;
+    padding-left: 120px;
   }
 
   .title-text{
     font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #063821;
     font-size: 30px;
     text-align: center;
     font-weight: normal;
@@ -100,9 +112,35 @@
 
   .subhead-text{
     font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #063821;
     font-size: 23px;
     text-align: center;
     font-weight: normal;
     justify-content: center;
     margin: 1%;
+  }
+
+  .link-text{
+    color: #027e44;    
+    text-decoration: none;
+  }
+
+  .link-text:hover{
+    font-weight: bold;
+  }
+
+
+
+  .list-type{
+    list-style-type: none;
+  }
+
+  .list-text{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+    margin-top: 8px;
+    padding-right: 80px;
+    padding-left: 80px;
   }
