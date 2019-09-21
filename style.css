@@ -1,0 +1,73 @@
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .site-name{
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    color: #0a0a0a;
+    font-family: 'Lobster', cursive;
+    margin-top: 10%;
+    margin-bottom: 10%;
+ }
+
+  .flex-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    flex-shrink: 2;
+  }
+
+  .flex-button{
+    border: none;
+    margin: 0;
+    background: transparent;
+    font-size: 30px;
+    color: #363636;
+    text-align: center;
+    font-weight: normal;
+    justify-content: center;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+  }
+
+  .flex-button:hover{
+    color: #0a0a0a;
+    border-bottom: 1px solid #363636;
+  }
+
+  .flex-button:focus{
+    outline: 0;
+    outline-offset: 0;
+  }
+
+  .flex-button:active{
+    outline: 0;
+    outline-offset: 0;
+    font-size: 29px;
+    border-bottom: 1px solid #363636;
+  }  
+
+  .text-intro{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    justify-content: center;
+  }
+
+  .intro-text{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    justify-content: center;
+  }
