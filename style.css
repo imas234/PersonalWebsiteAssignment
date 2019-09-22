@@ -144,3 +144,30 @@
     padding-right: 80px;
     padding-left: 80px;
   }
+
+  .table-frame{
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: center;
+  }
+
+  .table-header{
+    background-color: #063821;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    margin: 3px white;
+    text-align: center;
+    width: 30%;
+  }
+
+  .table-content{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-align: center;
+    width: 30%;
+  }
